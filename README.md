@@ -3,68 +3,68 @@
 ## Project Overview
 Over the next three months, I’ll be analyzing how my daily habits influence my mood. This project focuses on understanding the role of factors like sleep hours, work hours, exercise time, screen time, and social interactions in shaping my daily emotional well-being.
 
-By visualizing patterns and conducting statistical analyses, I aim to pinpoint which habits have the most significant impact on improving or deteriorating my mood. The ultimate goal is to identify actionable changes that lead to consistent improvements in emotional well-being.
+By visualizing patterns and performing statistical analysis, I seek to determine which of the habits most strongly improves/deteriorates my mood. The ultimate objective is actionable changes that result in steady improvement of emotional well-being.
 
 ## Objectives
-The primary objectives of this project are:
-1. **Mood Analysis**: To measure how daily habits such as sleep, exercise, work, and social interactions correlate with mood variations.
-2. **Key Habit Identification**: To identify the habits with the strongest influence on improving mood and create strategies to enhance emotional well-being.
-3. **Data-Driven Improvement**: To develop a data-driven approach for maintaining a balanced and positive emotional state.
-4. **Applied Data Science**: To apply data analysis, visualization, and statistical techniques to a personal dataset, enhancing my understanding and skills in data science.
+The primary objectives of the given project are:
+1. **Mood Analysis**: How much daily habits such as sleep, exercise, work, and social interaction relate to mood variations.
+2. **Identification of Keystone Habits**: To identify those habits that most strongly drive improved mood and develop strategies to promote emotional wellbeing.
+3. **Data-Driven Improvement**: Elaboration of a data-driven method for maintaining emotional balance and positivity.
+4. **Applied Data Science**: The application of data analysis, visualization, and statistics to a personal dataset contributes to the deepening of knowledge and skills in data science itself.
 
 ## Motivation
-The key motivations for selecting this project are:
-1. **Emotional Health**: Understanding how my habits affect my mood is essential for improving my mental health and overall well-being.
-2. **Actionable Insights**: Analyzing my daily data will provide a scientific foundation for optimizing my habits to foster a positive emotional state.
-3. **DSA 210 Course Application**: This project allows me to apply theoretical knowledge from the course to a real-world problem and gain hands-on experience in data science.
-4. **Long-Term Benefits**: The insights gained will serve as a practical guide for maintaining emotional stability and happiness over time.
+Main motivations for choosing this project:
+1. **Emotional Health**: Understanding how my habits relate to my mood is key to improving my mental health and well-being.
+2. **Actionable Insights**: The analysis of my daily data will, in turn, provide scientific evidence on how to best optimize my habits to achieve the desired positive emotional state.
+3. **DSA 210 Course Application**: This project allows me to apply theoretical knowledge from the course into a real-world problem and hands-on experience in data science.
+4. **Long-Term Benefits**: Gained insights will be applied as practical guidance toward retaining emotional stability and happiness overtime.
 
 ## Dataset
-The dataset for this project consists of daily records I have maintained over three months. The data includes the following attributes:
-- **Date**: The specific day of the record
-- **Sleep Hours**: Total hours slept
-- **Work Hours**: Time spent on professional tasks
-- **Reading Hours**: Time spent reading books, articles, or other materials
-- **Writing Hours**: Time spent journaling, creative writing, or work-related writing
-- **Exercise Hours**: Hours of physical activity or workout
-- **Social Time (Hours)**: Hours spent interacting with family or friends
-- **Screen Time (Hours)**: Hours spent on electronic devices
-- **Steps**: Total steps taken during the day
-- **Mood (1-10)**: Self-reported mood score (1 being poor and 10 excellent)
+The dataset from this project has been drawn from personal records kept every day over three months' period. The data thus includes the following attributes:
+- **Date**: The actual date for the record.
+- **Sleep Hours:** Total number of hours of sleep
+- **Work Hours**: The amount of time applied to professional work
+- **Reading Hours**: Total hours of reading books, articles, etc.
+- **Writing Hours**: Hours spent doing journal writing, creative writing, or writing work-related items
+- **Exercise Hours**: Exercise time/ hours out/in the gym
+- **Social Time (Hours)**: Family/ friends interaction hours
+- **Screen Time (Hours)**: Hourly use of electronic appliances
+- **Steps**: The number of steps taken within the day
+- **Mood (1-10)**: Reported mood score rated by self, ranging from 1 to 10 (poor to excellent)
 
 The data is recorded daily in a structured format and will be cleaned to address any missing or inconsistent entries before analysis.
 
 ## Data Considerations
-- **External Influences**: Variations due to external events (e.g., stressful workdays, illness) will be flagged as potential outliers.
-- **Consistency**: Efforts will be made to ensure accurate and consistent logging of daily activities and mood scores.
-- **Trends and Patterns**: Specific focus will be placed on identifying consistent patterns in habits and mood over time.
+- **External Influences**: Variations due to external events, such as stressful workdays or illness, should be flagged for possible outlier consideration.
+- **Consistency**: The subject will make every effort to perform the daily activities and log the mood score as accurately and consistently as possible.
+- **Trends and Patterns**: Emphasis will be given to the identification of regular habits and mood patterns over a period of time.
 
 ## Tools and Technologies
-- **Python**: For data cleaning, analysis, and visualization
-- **Pandas**: For data manipulation and preprocessing
-- **Matplotlib and Seaborn**: For visualizations (e.g., scatter plots, heatmaps, time series)
-- **SciPy/Statsmodels**: For hypothesis testing and statistical analyses
+- **Python**: For cleaning, analyzing, and visualizing data
+- **Pandas**: For data manipulation and pre-processing
+- **Matplotlib and Seaborn**: For visualizations - scatter plots, heatmaps, time series, among others
+- **SciPy/Statsmodels**: Hypothesis testing and statistical analyses
 
 ## Analysis Plan
 1. **Data Collection**:
-   - Import the daily records into a Pandas DataFrame.
-   - Clean the data by handling missing values and ensuring consistent formatting.
+   - Import daily records into a Pandas DataFrame.
+Data cleaning includes dealing with missing values and normalizing data formats.
 2. **Visualization**:
-   - Create scatter plots, heatmaps, and time series plots to explore relationships and trends. Examples include:
-     - Scatter plot of sleep hours vs. mood.
-     - Heatmap showing correlations between habits and mood.
-     - Time series plot comparing daily habits and mood over three months.
+   - Scatter plots, heatmaps, time series plotting for exploration of relationships and trends. Examples include:
+     - Scatter plot: Sleep hours vs. Mood.
+     - Heatmap: Habit and mood correlations.
+- Time series plot comparing daily habits and mood over three months.
 3. **Hypothesis Testing**:
    - Test hypotheses such as:
      - H₀: Changes in daily habits have no effect on mood.
      - Hₐ: Changes in one or more habits significantly impact mood.
    - Use regression analysis to identify the strongest predictors of mood.
 4. **Trend Analysis**:
-   - Explore trends in mood over time to identify patterns of improvement or decline.
-   - Determine whether specific habits (e.g., more sleep or exercise) align consistently with positive mood scores.
+   - Analyze the trend of mood over time to find out if there is any improvement or decline.
+   - Identify if certain habits-for instance, more sleep or exercise-always correspond to high positive mood scores.
 
 ## Example Analysis
 An example visualization will include a scatter plot showing the relationship between sleep hours and mood. The x-axis will represent sleep hours, while the y-axis will represent mood scores. This plot will help determine if more sleep consistently correlates with a higher mood score.
 
 ## Conclusion
-By the end of this project, I aim to identify which daily habits have the greatest influence on my mood. The insights gained will help me optimize my routine to maintain a consistently positive emotional state. Beyond personal improvement, this project demonstrates how data science can be applied to track and enhance emotional well-being in a practical, real-world setting.
+By the end of the project, I hope to learn which daily habits bear most influence on my mood. The insights gained will then be helpful in optimizing the routine so as to always stay in a positive state emotionally. Apart from improvement, this project illustrates how data science could be applied to trace and improve one's emotional condition in a realistic setting.
