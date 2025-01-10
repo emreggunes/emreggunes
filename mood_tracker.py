@@ -4,7 +4,7 @@ import seaborn as sns
 import statsmodels.api as sm
 
 # Load the dataset
-file_path = '/mnt/data/University_Student_Daily_Metrics.xlsx'
+file_path = '/mnt/data/Mood_Tracker_Data.xlsx'
 df = pd.ExcelFile(file_path).parse('Sheet1')
 
 # Convert 'Date' column to datetime
