@@ -179,7 +179,7 @@ The project highlighted the interconnectivity of everyday routines and emotional
 
 Actionable Recommendations
 
-To improve emotional well-being, prioritise balanced productivity by committing to 4-5 hours of structured but flexible work or study per day. Consistent sleep is vital, with 7-8 hours of quality sleep benefiting mental health. Engage in 2-4 hours of meaningful social contacts, focussing on quality over quantity. Limit screen usage to 2-3 hours each day, especially in the evenings, to encourage greater relaxation and sleep. To improve mood and energy, incorporate 1-2 hours of pleasurable physical activity each day and aim for 5000+ steps. Finally, set aside 1-2 hours for intellectual or creative activities like reading or writing to provide cerebral stimulation and fulfilment.
+To improve emotional well-being, prioritize balanced productivity by committing to 4-5 hours of structured but flexible work or study per day. Consistent sleep is vital, with 7-8 hours of quality sleep benefiting mental health. Engage in 2-4 hours of meaningful social contacts, focussing on quality over quantity. Limit screen usage to 2-3 hours each day, especially in the evenings, to encourage greater relaxation and sleep. To improve mood and energy, incorporate 1-2 hours of pleasurable physical activity each day and aim for 5000+ steps. Finally, set aside 1-2 hours for intellectual or creative activities like reading or writing to provide cerebral stimulation and fulfilment.
 
 Future Steps
 
